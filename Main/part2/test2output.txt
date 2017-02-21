@@ -1,0 +1,71 @@
+Feb  3 17:58:13 sccoache-VirtualBox kernel: [ 3696.139649] Interceptor: Found syscall table at address: 0xC17BB1C0
+Feb  3 17:58:13 sccoache-VirtualBox kernel: [ 3696.139651] Loaded interceptor!
+Feb  3 17:58:16 sccoache-VirtualBox kernel: [ 3699.736477] Target process id: 18708
+Feb  3 17:58:16 sccoache-VirtualBox kernel: [ 3699.736480] Sibling process id: 18707
+Feb  3 17:59:05 sccoache-VirtualBox kernel: [ 3748.931932] Target process id: 1
+Feb  3 17:59:05 sccoache-VirtualBox kernel: [ 3748.931935] Child process id: 237
+Feb  3 17:59:05 sccoache-VirtualBox kernel: [ 3748.931936] Child process id: 267
+Feb  3 17:59:05 sccoache-VirtualBox kernel: [ 3748.931936] Child process id: 396
+Feb  3 17:59:05 sccoache-VirtualBox kernel: [ 3748.931937] Child process id: 748
+Feb  3 17:59:05 sccoache-VirtualBox kernel: [ 3748.931938] Child process id: 753
+Feb  3 17:59:05 sccoache-VirtualBox kernel: [ 3748.931939] Child process id: 771
+Feb  3 17:59:05 sccoache-VirtualBox kernel: [ 3748.931939] Child process id: 785
+Feb  3 17:59:05 sccoache-VirtualBox kernel: [ 3748.931940] Child process id: 789
+Feb  3 17:59:05 sccoache-VirtualBox kernel: [ 3748.931941] Child process id: 790
+Feb  3 17:59:05 sccoache-VirtualBox kernel: [ 3748.931941] Child process id: 792
+Feb  3 17:59:05 sccoache-VirtualBox kernel: [ 3748.931942] Child process id: 851
+Feb  3 17:59:05 sccoache-VirtualBox kernel: [ 3748.931943] Child process id: 852
+Feb  3 17:59:05 sccoache-VirtualBox kernel: [ 3748.931944] Child process id: 855
+Feb  3 17:59:05 sccoache-VirtualBox kernel: [ 3748.931944] Child process id: 859
+Feb  3 17:59:05 sccoache-VirtualBox kernel: [ 3748.931945] Child process id: 861
+Feb  3 17:59:05 sccoache-VirtualBox kernel: [ 3748.931946] Child process id: 886
+Feb  3 17:59:05 sccoache-VirtualBox kernel: [ 3748.931946] Child process id: 897
+Feb  3 17:59:05 sccoache-VirtualBox kernel: [ 3748.931947] Child process id: 1002
+Feb  3 17:59:05 sccoache-VirtualBox kernel: [ 3748.931948] Child process id: 1005
+Feb  3 17:59:05 sccoache-VirtualBox kernel: [ 3748.931949] Child process id: 1294
+Feb  3 17:59:05 sccoache-VirtualBox kernel: [ 3748.931949] Child process id: 1330
+Feb  3 17:59:05 sccoache-VirtualBox kernel: [ 3748.931950] Child process id: 1342
+Feb  3 17:59:05 sccoache-VirtualBox kernel: [ 3748.931951] Child process id: 1359
+Feb  3 17:59:05 sccoache-VirtualBox kernel: [ 3748.931952] Child process id: 1441
+Feb  3 17:59:05 sccoache-VirtualBox kernel: [ 3748.931952] Child process id: 1882
+Feb  3 17:59:05 sccoache-VirtualBox kernel: [ 3748.931953] Child process id: 1930
+Feb  3 17:59:05 sccoache-VirtualBox kernel: [ 3748.931954] Sibling process id: 2
+
+
+TERMINAL OUTPUT--------------------------------------------------------------------------------------
+sccoache@sccoache-VirtualBox:~/Downloads/proj2test/part2$ ./test2
+I am a parent process. Running __NR_cs3013_syscall2
+
+-----Printing process genealogy-----
+-----Target-----
+[1] Target ID: 1
+-----Children-----
+[1]Child ID: 237
+[2]Child ID: 267
+[3]Child ID: 396
+[4]Child ID: 748
+[5]Child ID: 753
+[6]Child ID: 771
+[7]Child ID: 785
+[8]Child ID: 789
+[9]Child ID: 790
+[10]Child ID: 792
+[11]Child ID: 851
+[12]Child ID: 852
+[13]Child ID: 855
+[14]Child ID: 859
+[15]Child ID: 861
+[16]Child ID: 886
+[17]Child ID: 897
+[18]Child ID: 1002
+[19]Child ID: 1005
+[20]Child ID: 1294
+[21]Child ID: 1330
+[22]Child ID: 1342
+[23]Child ID: 1359
+[24]Child ID: 1441
+[25]Child ID: 1882
+[26]Child ID: 1930
+-----Ancestors-----
+-----Siblings-----
+[1]Sibling ID: 2
